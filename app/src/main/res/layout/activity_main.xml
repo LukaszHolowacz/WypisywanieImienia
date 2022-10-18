@@ -7,18 +7,57 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
+    <Button
+        android:id="@+id/mojeimie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Podaj swoje imie"
-        android:textColorHint="@color/white"
+        android:text="Wyczyść"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintVertical_bias="0.278" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="211dp"
+        android:layout_height="43dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Wpisz cokolwiek!"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#ABFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
+        app:layout_constraintVertical_bias="0.241" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Łukasz Hołowacz"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/doklejatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doklej podany tekst"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintVertical_bias="0.278" />
 </androidx.constraintlayout.widget.ConstraintLayout>
