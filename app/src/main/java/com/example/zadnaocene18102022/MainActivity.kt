@@ -19,5 +19,9 @@ class MainActivity : AppCompatActivity() {
         butdokleja.setOnClickListener {
             wynik.text = wynik.text.toString() + podanytext.text.toString()
         }
+
+        butreset.setOnClickListener {
+            wynik.setText(R.string.my_name)
+        }
     }
 }

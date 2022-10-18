@@ -23,7 +23,7 @@
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="211dp"
-        android:layout_height="43dp"
+        android:layout_height="48dp"
         android:background="@drawable/border"
         android:ems="10"
         android:hint="Wpisz cokolwiek!"
@@ -41,7 +41,7 @@
         android:id="@+id/wynik"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Łukasz Hołowacz"
+        android:text="@string/my_name"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30dp"
